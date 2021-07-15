@@ -1,3 +1,7 @@
+#DEFUNCT. decided to pivot to making program with dragged rectangle and live electric flux feedback.
+#This program draws x random points and draws lines between all of them to make a shape. 
+
+
 import picture
 import random
 import time
@@ -5,7 +9,7 @@ import math
 
 def main():
     #chargenum = int(input("Enter number of charges"))
-    surfacenum = int(input("Enter number of vertices for desired gaussian surface (3 or more)"))
+    surfacenum = int(input("Enter number of vertices for desired gaussian surface (3 or more): "))
     #charges = randompoints(chargenum)
     window = picture.Picture(1000,1000)
     window.setFillColor(0,0,0)
